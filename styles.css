@@ -309,7 +309,6 @@ body, html {
   color: black;
   flex: 1;
   position: relative;
-  left: 15px;
   top: 0px;
 }
 
@@ -431,9 +430,8 @@ a.link.active{
 
 .syllabi {
   background: #F0F7F4;
-  width: 320px;
-  height: 280px;
-  margin: 0px 10px;
+  /* width: 320px; */
+  /* height: 350px; */
   padding: 25px 35px;
   flex: 0.5;
 }
@@ -480,7 +478,7 @@ a.link.active{
 }
 
 .btn.btn-success{
-  /* background: #4CAF50; */
+  background-color: #4CAF50;
   width: 200px;
   height: 60px;
   margin: 8px;
@@ -499,4 +497,5 @@ a.link.active{
   align-items: center;
   text-align: center;
   letter-spacing: 0.075em;
+  border-radius: 7.5px;
 }
